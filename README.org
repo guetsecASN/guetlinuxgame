@@ -1,7 +1,7 @@
-#+TITILE: GUETLINUXGAME
+* GUETLINUXGAME
 
-这是为了贵协[[@GUECSEC][http://sec.guet.edu.cn/]]招新的一套简单的linux基础题目，类似于wargame的bandit，
-目前只有5 + 一共25 +关。
+这是为了贵协[[http://sec.guet.edu.cn/][@GUECSEC]]招新的一套简单的linux基础题目，类似于wargame的bandit，
+目前只有10 + 一共25 +关。
 最后一关的密码就是flag。
 如果你需要编写脚本，请在/tmp/下新建一个文件夹，建议名称尽量复杂，我们会定时清理改目录，请不要在储存重要信息。
 请不要上传病毒后门等恶意程序，不要打扰别的玩家进行游戏，不要修改密码。
