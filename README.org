@@ -1,0 +1,48 @@
+#+TITILE: GUETLINUXGAME
+
+这是为了贵协[[@GUECSEC][http://sec.guet.edu.cn/]]招新的一套简单的linux基础题目，类似于wargame的bandit，
+目前只有5 + 一共25 +关。
+最后一关的密码就是flag。
+如果你需要编写脚本，请在/tmp/下新建一个文件夹，建议名称尽量复杂，我们会定时清理改目录，请不要在储存重要信息。
+请不要上传病毒后门等恶意程序，不要打扰别的玩家进行游戏，不要修改密码。
+当然你可以把你的wp发表在你的博客等地方，但是不要透漏你解出的答案。
+祝大家玩的愉快。
+
+** level 0
+这一关是所有的基础，目标是用ssh连接游戏。你需要连接的主机是119.28.212.237，端口号是2345，
+username：guetlinuxgame0，password：saDz9VnpPnc2ujhW
+
+** level 0 -> level 1
+下一关的密码在家目录的一个名叫passwd.txt的文件中，你可以使用此密码登陆guetlinuxgame1。
+以后，你只要找到一个级别的密码，就可以使用ssh登陆到该级别的账号。
+
+** level 1 -> level 2
+下一关的密码在一个叫nextpsd的目录中。
+
+** level 2 -> level 3
+下一关的密码在一个叫-的文件中。
+
+** level 3 -> level 4
+下一关的密码在一个叫 p#sswd.txt的文件中。
+
+** level 4 -> level 5
+下一关的密码在passwd.txt的文件中，并且是这个文件中唯一没有guet的一行文本。
+
+** level 5 -> level 6
+下一关的密码在一个叫nextpsd的目录中。并且是其中唯一个人类可读的文本文件。
+
+** level 6 -> level 7
+下一关的密码在服务器的某个地方，他有以下特征：
++ 人类可读的文本文件。
++ 大小有233字节。
++ 属于guetlinuxgame7，但是所属用户组位guetlinuxgame6。
+
+** level 7 -> level 8
+下一关的密码被包含在家目录的data文件中，这是一个反复压缩的文件，如果要是用脚本，
+清在/tmp/下建立一个自己的文件夹，建议名称尽量复杂。
+
+** level 8 -> level 9
+下一关的密码在家目录的passwd.txt文件中，但是他被base64加密了。
+
+** level 9 -> level 10
+下一关的密码在家目录的passwd.txt文件中，它使用了rot13加密.
