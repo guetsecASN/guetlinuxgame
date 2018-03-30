@@ -1,6 +1,6 @@
 * GUETLINUXGAME
 
-这是为了贵协[[http://sec.guet.edu.cn/][@GUECSEC]]招新的一套简单的linux基础题目，类似于wargame的bandit，
+这是为了贵协[[http://sec.guet.edu.cn/][@GUETSEC]]招新的一套简单的linux基础题目，类似于wargame的bandit，
 目前只有10 + 一共25 +关。
 最后一关的密码就是flag。
 如果你需要编写脚本，请在/tmp/下新建一个文件夹，建议名称尽量复杂，我们会定时清理改目录，请不要在储存重要信息。
@@ -35,14 +35,27 @@ username：guetlinuxgame0，password：saDz9VnpPnc2ujhW
 下一关的密码在服务器的某个地方，他有以下特征：
 + 人类可读的文本文件。
 + 大小有233字节。
-+ 属于guetlinuxgame7，但是所属用户组位guetlinuxgame6。
++ 属于guetlinuxgame7，但是所属用户组为guetlinuxgame6。
 
 ** level 7 -> level 8
-下一关的密码被包含在家目录的data文件中，这是一个反复压缩的文件，如果要是用脚本，
-清在/tmp/下建立一个自己的文件夹，建议名称尽量复杂。
+下一关的密码被包含在家目录的data文件中，这是一个反复压缩的文件，如果要使用脚本，
+请在/tmp/下建立一个自己的文件夹，建议名称尽量复杂。
 
 ** level 8 -> level 9
 下一关的密码在家目录的passwd.txt文件中，但是他被base64加密了。
 
 ** level 9 -> level 10
 下一关的密码在家目录的passwd.txt文件中，它使用了rot13加密.
+
+** level 10 -> level 11
+下一关的密码在家目录的passwd.txt的文件中。并且是其中唯一一行非重复的文本。
+
+** level 11 -> level 12
+要获取下一关的密码，请把当前密码seed到119.23.236.68的31000端口。
+
+** level 12 -> level 13
+下一关的密码在guetlinuxgame13的家目录的passwd.txt文件中，但是只有guetlinuxgame13
+用户才能访问它，你不会直接获得下个级别的密码，但是你可以得到一个登陆下一级别的ssh文件。
+enjoy！
+
+
