@@ -51,7 +51,7 @@ username：guetlinuxgame0，password：saDz9VnpPnc2ujhW
 下一关的密码在家目录的passwd.txt的文件中。并且是其中唯一一行非重复的文本。
 
 ** level 11 -> level 12
-要获取下一关的密码，请把当前密码seed到119.23.236.68的31000端口。
+要获取下一关的密码，请把当前密码发送到119.23.236.68的31000端口。
 
 ** level 12 -> level 13
 下一关的密码在guetlinuxgame13的家目录的passwd.txt文件中，但是只有guetlinuxgame13
